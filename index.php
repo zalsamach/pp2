@@ -7,6 +7,8 @@
     //Turn on error reporting
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
+
+    include("functions.php");
 ?>
 
 <!DOCTYPE html>
@@ -20,14 +22,6 @@
         echo "<p>PHP Array Practice</p>";
 
         $numbers = array(7, 9, 8, 9, 8, 8, 6);
-        function printArr($numbers)
-        {
-            for ($i = 0; $i < sizeof($numbers); $i++)
-            {
-                echo $numbers[$i] . '<br>';
-            }
-        }
-
         printArr($numbers);
     ?>
 
