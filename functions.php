@@ -10,7 +10,13 @@
 
     function largest($numbers)
     {
-        echo "<p>Largest Number: </p>" . (max($numbers));
+        echo "<p>Largest Number: </p>" . (max($numbers)) . '<br>';
+    }
+
+    function removeDups($numbers)
+    {
+        $result = array_unique($numbers);
+        print_r($result);
     }
 
     ?>
