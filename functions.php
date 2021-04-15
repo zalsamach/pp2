@@ -5,5 +5,12 @@
         {
             echo $numbers[$i] . '<br>';
         }
+
     }
+
+    function largest($numbers)
+    {
+        echo "<p>Largest Number: </p>" . (max($numbers));
+    }
+
     ?>
